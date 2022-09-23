@@ -1,6 +1,6 @@
 # web_portfolio
 
-This is a web app portfolio with getx state management.
+This is a web app portfolio with stacked architecture.
 
 ## Getting Started
 
