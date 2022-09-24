@@ -3,7 +3,7 @@ import 'package:stacked/stacked.dart';
 import 'package:web_portfolio/utils/consts.dart';
 
 import '../../../core/models/job_model.dart';
-import 'home_page.dart';
+import 'web_page.dart';
 
 class HomeViewModel extends BaseViewModel{
 List<JobModel> jobExp = [
