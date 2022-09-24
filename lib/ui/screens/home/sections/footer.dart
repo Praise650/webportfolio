@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:web_portfolio/ui/responsive.dart';
 import '../../../../utils/consts.dart';
 import '../../../../utils/style/text_style.dart';
 class Footer extends StatelessWidget {
@@ -11,7 +13,8 @@ class Footer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 50.0),
+      padding:  EdgeInsets.symmetric(
+          horizontal: Responsive.isMobile(context)?0: 50.0),
       child: Padding(
         padding: const EdgeInsets.only(top: 200.0, bottom: 30),
         child: Row(
